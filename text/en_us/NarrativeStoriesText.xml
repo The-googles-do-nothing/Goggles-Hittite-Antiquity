@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>The Kingdom of a Thousand Gods.</Text>
+        </Row>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEA_COMPLETION">
+            <Text>300 (shekels of) refined and first-class gold, the tribute which my father had imposed upon your father, he brought year for year; he never refused it... I, the Sun, put you in the place of your father</Text>
+        </Row>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
+            <Text>Hitties’s reputation fuels its growth.</Text>
+        </Row>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
+            <Text>Hitties’s pride lies in its economy.</Text>
+        </Row>
+        <Row Tag="LOC_HITTITE_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+    </EnglishText>
+</Database>

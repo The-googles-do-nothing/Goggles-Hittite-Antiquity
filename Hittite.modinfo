@@ -65,6 +65,7 @@
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
 					<Item>icons/civ_sym_hittite_jec</Item>
@@ -132,6 +133,9 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/progression-trees-tech-common.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
