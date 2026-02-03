@@ -22,10 +22,15 @@
 	</Modifier>
 	
     <!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
-	<Modifier id="MOD_JEC_OATH_OF_LOYALTY_PACKED_UNITS" collection="COLLECTION_COMMANDER_PACKED_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+	<Modifier id="MOD_JEC_OATH_OF_LOYALTY_PACKED_UNITS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IN_OWNER_ARMY"/>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_JEC_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- TRADITION_HITTITE_PANKUS -->
