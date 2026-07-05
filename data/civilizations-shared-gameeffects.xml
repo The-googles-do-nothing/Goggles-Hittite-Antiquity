@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">HittiteResourceGold</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_HITTITE_JEC_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_WILDCARD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">HittiteResourceWildcardFood, HittiteResourceWildcardGold</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_HITTITE_JEC_ABILITY_NAME</Argument>
+	</Modifier>
+</GameEffects>

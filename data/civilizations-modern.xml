@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_HITTITE_JEC"/>		
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_GOLD"/>
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_WILDCARD"/>
+	</TraitModifiers>
+	<Civilizations>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_HITTITE_JEC" />
+			<Set UniqueCultureProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME"/>
+		</Update>
+	</Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ANACHRONISTIC_CIV" />
+	</CivilizationTraits>
+</Database>

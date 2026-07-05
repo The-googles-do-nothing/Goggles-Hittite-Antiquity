@@ -23,25 +23,17 @@
 			<Text>+1% Production per Bonus Resouce assigned to a Settlement</Text>
 		</Row>
 
-	
-		<!-- Traditions -->
-		<!-- RADITION_HITTITE_RITUAL_PITS -->
-		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_NAME">
-			<Text>Ritual Pits</Text>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_NESHITES_QUOTE">
+			<Text>Just as this wax melts and the sheep fat separates, may he who breaks the oath and deceives the king of Ḫattusa melt like the wax, and may he be separated like the sheep fat!</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_DESCRIPTION">
-			<Text>Clay Pits, Mines and Quarries give +2[icon:YIELD_CULTURE] Culture, but -1[icon:YIELD_PRODUCTION] Production.</Text>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_NESHITES_QUOTE_AUTHOR">
+			<Text>Hittite military oath</Text>
 		</Row>
-		
-		<Row Tag="LOC_MOD_JEC_RITUAL_PITS_CULTURE_DESCRIPTION">
-			<Text>Clay Pits, Mines and Quarries +2[icon:YIELD_CULTURE] Culture</Text>
-		</Row>
-		
-		<Row Tag="LOC_MOD_JEC_RITUAL_PITS_PRODUCTION_DESCRIPTION">
-			<Text>Clay Pits, Mines and Quarries -1[icon:YIELD_PRODUCTION] Production.</Text>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_NESHITES_NAME">
+			<Text>Neshites</Text>
 		</Row>
 
-		<!-- NODE_CIVIC_AQ_HITTITE_HAPALKI -->
+
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE">
 			<Text>Ea began to say: “Why are you destroying mankind? They will not give sacrifices to the gods. They will not burn cedar and incense to you. If you destroy mankind, they will no longer worship the gods. No one will offer bread or libations to you any longer. Even Teššub, Kummiya’s heroic king, will himself work the plow. (...) Ea, King of Wisdom, said to Kumarbi: “Why are you, o Kumarbi, seeking to harm mankind? Does not the mortal take a grain heap and do they not promptly offer it to you, Kumarbi? Does he make offering to you alone, Kumarbi, Father of the Gods, joyfully in the midst of the temple?</Text>
 		</Row>
@@ -51,16 +43,7 @@
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_NAME">
 			<Text>Hapalki</Text>
 		</Row>
-		<!-- Traditions -->
-		<!-- TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD -->
-		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_NAME">
-			<Text>Gifts of the Storm God</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_DESCRIPTION">
-			<Text>+2 Happiness per Unassigned Resouce.</Text>
-		</Row>
 
-		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE">
 			<Text>Let a prince – a son of the first rank only be installed as king! If a prince of the first rank does not exist, (then) let he who is a son of second rank become king. But if there is no prince, no male issue, (then) let them take an antiyant-husband for she who is a first rank daughter, and let him become king.</Text>
 		</Row>
@@ -74,27 +57,6 @@
 			<Text>+5% Wonder production from Iron Resources</Text>
 		</Row>
 
-		<!-- Traditions -->
-		<!-- TRADITION_HITTITE_PANKUS -->
-		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_NAME">
-			<Text>Pankuš</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_DESCRIPTION">
-			<Text>Towns have +1 Happiness per assigned resource, and Cities have +3 Happiness per assigned resource.</Text>
-		</Row>
-		<Row Tag="LOC_MOD_JEC_PANKUS_TOWNS_DESCRIPTION">
-			<Text>Towns have +1 Happiness per assigned resource</Text>
-		</Row>
-
-		<Row Tag="LOC_MOD_JEC_PANKUS_CITIES_DESCRIPTION">
-			<Text>Cities have +3 Happiness per assigned resource</Text>
-		</Row>
-		
-		<Row Tag="LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION">
-			<Text>+2 Happiness per Unassigned Resouce.</Text>
-		</Row>
-
-		<!-- NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_QUOTE">
 			<Text>You are the strong one, which I (praise), the bull calf of Anu! You are the strong one, which I (praise), your father Anu begot you, your mother Kumarbi brought you to life. For the city of Aleppo I summon him, Teššop, for the pure throne.</Text>
 		</Row>
@@ -111,19 +73,6 @@
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_CAP_INCREASE_DESCRIPTION">
 			<Text>+1 Settlement Limit.</Text>
 		</Row>
-
-		<!-- Traditions -->
-		<!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
-		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_NAME">
-			<Text>Oath of Loyalty</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
-		</Row>
-		<Row Tag="LOC_MOD_JEC_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
-		</Row>
-
 
 	</EnglishText>
 </Database>

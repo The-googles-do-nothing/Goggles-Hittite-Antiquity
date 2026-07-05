@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_HITTITE_JEC" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_HITTITE_JEC</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_HITTITE_JEC_DESCRIPTION</String>
+	</Modifier>
 	<Modifier id="WONDER_YAZILIKAYA_MOD_HAPPINESS_ON_BUILDING_CREATED" collection="COLLECTION_OWNER" effect="TRIGGER_CITY_GRANT_YIELD_ON_CONSTRUCTIBLE_CREATED">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="PercentCost">50</Argument>

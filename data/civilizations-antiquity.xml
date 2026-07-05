@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_HITTITE_JEC"/>		
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_GOLD"/>
+		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_WILDCARD"/>
+	</TraitModifiers>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HITTITE_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HITTITE_JEC" RequirementId="REQ_PLAYER_HAS_TRAIT_HITTITE_JEC" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HITTITE_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_HITTITE_JEC" Name="TraitType" Value="TRAIT_HITTITE_JEC" />
+	</RequirementArguments>
+</Database>

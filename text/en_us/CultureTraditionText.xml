@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Traditions -->
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_I_NAME">
+			<Text>Pankuš</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_I_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource, and Cities have +3 Happiness per assigned resource.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_PANKUS_TOWNS_I_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_JEC_PANKUS_CITIES_I_DESCRIPTION">
+			<Text>Cities have +3 Happiness per assigned resource</Text>
+		</Row>
+
+		<!-- Traditions -->
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_NAME">
+			<Text>Ritual Pits</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries give +2[icon:YIELD_CULTURE] Culture, but -1[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MOD_JEC_RITUAL_PITS_CULTURE_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries +2[icon:YIELD_CULTURE] Culture</Text>
+		</Row>
+		
+		<Row Tag="LOC_MOD_JEC_RITUAL_PITS_PRODUCTION_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries -1[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+
+        <!-- Traditions -->
+		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_NAME">
+			<Text>Gifts of the Storm God</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_DESCRIPTION">
+			<Text>+2 Happiness per Unassigned Resouce.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION">
+			<Text>+2 Happiness per Unassigned Resouce.</Text>
+		</Row>
+
+        <!-- Traditions -->
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_NAME">
+			<Text>Oath of Loyalty</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
+		</Row>
+
+		<!-- exploration -->
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_II_NAME">
+			<Text>Pankuš</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_II_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource, and Cities have +3 Happiness per assigned resource.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_PANKUS_TOWNS_II_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_PANKUS_CITIES_II_DESCRIPTION">
+			<Text>Cities have +3 Happiness per assigned resource</Text>
+		</Row>
+
+		<!-- modern -->
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_III_NAME">
+			<Text>Pankuš</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_III_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource, and Cities have +3 Happiness per assigned resource.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_PANKUS_TOWNS_III_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_PANKUS_CITIES_III_DESCRIPTION">
+			<Text>Cities have +3 Happiness per assigned resource</Text>
+		</Row>
+	</EnglishText>
+</Database>

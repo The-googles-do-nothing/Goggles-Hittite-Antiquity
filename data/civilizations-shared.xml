@@ -15,17 +15,21 @@
 	<Traits>
 		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
-	<TraitModifiers>
-		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_GOLD"/>
-		<Row TraitType="TRAIT_HITTITE_JEC_ABILITY" ModifierId="MOD_TRAIT_HITTITE_JEC_ABILITY_RESOURCE_WILDCARD"/>
-	</TraitModifiers>
 	<CivilizationTraits>
+		<!-- ancient -->
 		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ANTIQUITY_CIV"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_HITTITE_JEC"/>
-		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_HITTITE_JEC_2"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_HITTITE_JEC_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<!-- exploration -->
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_EX"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_EX"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_EX_TALL"/>
+		<!-- modern -->
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_MO"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_MO"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_MO_TALL"/>
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->

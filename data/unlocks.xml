@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HITTITE_JEC" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE_JEC"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE_JEC" Name="LOC_CIVILIZATION_HITTITE_JEC_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_HITTITE_JEC" UnlockRewardType="CIVILIZATION_HITTITE_JEC" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockRequirements>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+	</UnlockConfigurationValues>
+
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_HITTITE_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_HITTITE_JEC" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_HITTITE_JEC" Name="CivilizationType" Value="CIVILIZATION_HITTITE_JEC"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_HITTITE_JEC" RequirementId="REQ_CIV_IS_HITTITE_JEC"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_ABBASID" RequirementSetId="REQSET_CIV_IS_HITTITE_JEC" Description="LOC_UNLOCK_PLAY_AS_HITTITE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HITTITE_ABBASID_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MONGOLIA" RequirementSetId="REQSET_CIV_IS_HITTITE_JEC" Description="LOC_UNLOCK_PLAY_AS_HITTITE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HITTITE_MONGOLIA_TOOLTIP"/>
+		
+    </UnlockRequirements>
+</Database>
