@@ -66,6 +66,7 @@
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/CultureTraditionText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
 					<Item>text/en_us/WonderText.xml</Item>
@@ -96,7 +97,8 @@
 					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/civilizations-shared-gameeffects.xml</Item>
 					<Item>data/civilizations-legacy.xml</Item>
-
+					<Item>data/constructibles-shared-gameeffects.xml</Item>
+					<Item>data/constructibles-shared.xml</Item>
 					<Item>data/loading-info.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
@@ -125,6 +127,8 @@
 
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
+
+					<Item>data/constructibles-no-persist.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -174,6 +178,7 @@
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/CultureTraditionText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
 					<Item>text/en_us/WonderText.xml</Item>

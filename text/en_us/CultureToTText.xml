@@ -1,0 +1,33 @@
+
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_JEC_ORIGINS_NAME">
+			<Text>Hittite Origins</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_EX_HITTITE_JEC_RENAISSANCE_NAME">
+			<Text>Hittite Renaissance</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_JEC_SYNCRETISM_EXPLORATION_NAME">
+			<Text>Gifts of the Storm God II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>Increased Happiness per Unassigned Resouce.</Text>
+		</Row>
+
+		<Row Tag="LOC_NODE_CIVIC_MO_HITTITE_JEC_MODERNIZATION_NAME">
+			<Text>Hittite Modernization</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_HITTITE_JEC_SYNCRETISM_MODERN_NAME">
+			<Text>Gifts of the Storm God III</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_JEC_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>Increased Happiness per Unassigned Resouce.</Text>
+		</Row>
+
+    </EnglishText>
+</Database>
+
+
+
+
