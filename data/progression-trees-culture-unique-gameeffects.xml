@@ -23,13 +23,11 @@
 			<Argument name="Tooltip">LOC_MOD_JEC_PERUNA_HATRAI_HILL_CULTURE_NAME</Argument>
 		</Modifier>
 		
-		<Modifier id="MOD_JEC_PERUNA_HATRAI_WONDER_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION_PER_RESOURCE">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
-			</SubjectRequirements>
-			<Argument name="Amount">5</Argument>
+		<Modifier id="MOD_JEC_PERUNA_HATRAI_WONDER_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_BIOME_WONDER_PRODUCTION_PER_RESOURCE">
+			<Argument name="Empire">true</Argument>
+			<Argument name="BiomeType">BIOME_GRASSLAND</Argument>
 			<Argument name="ResourceType">RESOURCE_IRON</Argument>
-			<Argument name="ConstructibleClass">WONDER</Argument>
+			<Argument name="Amount">5</Argument>
 			<String context="Description">LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_WONDER_PRODUCTION_DESCRIPTION</String>	
 		</Modifier>
 

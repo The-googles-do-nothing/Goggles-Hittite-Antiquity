@@ -99,6 +99,16 @@
 		<String context="Description">LOC_MOD_JEC_PANKUS_CITIES_III_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- ==================================================	-->
+	<!--	Unlock Syncretism Traditions				-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_UNLOCK_HITTITE_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_HITTITE_JEC_SYNCRETISM_EXPLORATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_HITTITE_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_HITTITE_JEC_SYNCRETISM_MODERN</Argument>
+	</Modifier>
+
 	<!-- Syncretism -->
 	<Modifier id="MOD_HITTITE_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
@@ -106,6 +116,12 @@
 		<Argument name="Unassigned">true</Argument>
 		<String context="Description">LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION</String>
 	</Modifier>
+
+	<!-- <Modifier id="PLAYER_DIPLOMACY_WONDER_CONSTRUCTION_INITIAL_PLAYER_ACCEPT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WONDER_PRODUCTION">
+		<Argument name="Percent">10</Argument>
+		<String context="Description">LOC_PLAYER_DIPLOMACY_WONDER_CONSTRUCTION_INITIAL_PLAYER_ACCEPT_DESCRIPTION</String>
+	</Modifier> -->
+
 	<Modifier id="MOD_HITTITE_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">2</Argument>
