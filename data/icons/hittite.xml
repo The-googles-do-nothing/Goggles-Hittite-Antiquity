@@ -15,15 +15,19 @@
 		<Row>
 			<ID>CIVILIZATION_HITTITE_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_1080</Path>
+			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_jec_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_HITTITE_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_720</Path>
+			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+            <ID>bg-panel-hittite_jec</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_jec_720.png</Path>
+        </Row> 
         <!-- Culture -->
         <Row>
             <ID>cult_hittite</ID>
