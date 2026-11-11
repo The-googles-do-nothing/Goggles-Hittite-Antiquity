@@ -7,8 +7,8 @@
 		<Row Tag="LOC_MODULE_HITTITE_DESCRIPTION">
 			<Text>Hittite Antiquity Age</Text>
 		</Row>
-		<Row Tag="LOC_AUTHORS_JEC">
+		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
 			<Text>The_Goggles_Do_Nothing</Text>
-		</Row>
+		</InsertOrIgnore>
 	</EnglishText>
 </Database>

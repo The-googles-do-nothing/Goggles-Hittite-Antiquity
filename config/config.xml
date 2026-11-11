@@ -5,12 +5,14 @@
 	</Civilizations>
 	<CivilizationItems>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" AgeType="AGE_EXPLORATION" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" AgeType="AGE_MODERN" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
+
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="UNIT_GOLDEN_SPEARMAN_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_GOLDEN_SPEARMAN_JEC_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_JEC_BASE_DESCRIPTION" Icon="ICON_UNIT_GOLDEN_SPEARMAN_JEC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="UNIT_GOLDEN_CHARIOT_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_GOLDEN_CHARIOT_JEC_NAME" Description="LOC_UNIT_GOLDEN_CHARIOT_JEC_BASE_DESCRIPTION" Icon="ICON_UNIT_GOLDEN_CHARIOT_JEC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="BUILDING_HUWASI_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_HUWASI_JEC_NAME" Description="LOC_BUILDING_HUWASI_JEC_DESCRIPTION" Icon="ICON_BUILDING_HUWASI_JEC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="BUILDING_GISKINTI_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_GISKINTI_JEC_NAME" Description="LOC_BUILDING_GISKINTI_JEC_DESCRIPTION" Icon="ICON_BUILDING_GISKINTI_JEC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="QUARTER_KUNTARRA" Kind="KIND_QUARTER" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Icon="city_uniquequarter"/>
-	
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" TagType="TAG_TRAIT_EXPANSIONIST"/>
