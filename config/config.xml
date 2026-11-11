@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Civilizations>
-		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" CivilizationName="LOC_CIVILIZATION_HITTITE_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_HITTITE_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HITTITE_JEC_DESCRIPTION" CivilizationIcon="civ_sym_hittite.png"/>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" CivilizationName="LOC_CIVILIZATION_HITTITE_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_HITTITE_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HITTITE_JEC_DESCRIPTION" CivilizationIcon="civ_sym_hittite.png" CivilizationIntroText="LOC_LOADING_CIV_INTRO_TEXT_HITTITE_JEC"/>
 	</Civilizations>
 	<CivilizationItems>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" AgeType="AGE_ANTIQUITY" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" AgeType="AGE_EXPLORATION" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE_JEC" AgeType="AGE_MODERN" Type="TRAIT_HITTITE_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_JEC_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_JEC_ABILITY_DESCRIPTION"/>
 
